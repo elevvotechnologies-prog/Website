@@ -1,0 +1,86 @@
+import { D365Icon, PowerPlatformIcon, AzureIcon, ReactIcon, NodeIcon, CRMIcon } from "../components/Icons";
+
+export const SERVICES = [
+  {
+    IconComp: D365Icon,
+    title: "Microsoft D365 CRM",
+    sub: "Dynamics 365 Solutions",
+    color: "#0078D4",
+    bg: "rgba(0,120,212,0.08)",
+    bd: "rgba(0,120,212,0.25)",
+    desc: "Unlock the full potential of Microsoft Dynamics 365 CRM to transform sales, service, and marketing operations with seamless integrations and deep customization.",
+    features: ["Sales Automation", "Customer Insights", "Custom Entities", "Third-party Integrations", "Field Service", "Marketing Automation"],
+  },
+  {
+    IconComp: PowerPlatformIcon,
+    title: "Power Platform",
+    sub: "Low-Code Innovation",
+    color: "#742774",
+    bg: "rgba(116,39,116,0.08)",
+    bd: "rgba(116,39,116,0.25)",
+    desc: "Build powerful business apps, automate complex workflows, and derive actionable insights using Power Apps, Power Automate, Power BI, and Power Virtual Agents.",
+    features: ["Power Apps", "Power Automate", "Power BI Dashboards", "Virtual Agents", "Dataverse", "ALM & DevOps"],
+  },
+  {
+    IconComp: AzureIcon,
+    title: "Azure Services",
+    sub: "Cloud Infrastructure",
+    color: "#0078D4",
+    bg: "rgba(0,120,212,0.08)",
+    bd: "rgba(0,120,212,0.25)",
+    desc: "Design, deploy, and manage enterprise-grade cloud solutions on Microsoft Azure — from infrastructure and security to AI services, DevOps pipelines, and serverless compute.",
+    features: ["Azure DevOps", "Cloud Architecture", "App Services", "AI & Cognitive", "Azure AD", "Cost Optimization"],
+  },
+  {
+    IconComp: ReactIcon,
+    title: "React & React Native",
+    sub: "Web & Mobile Apps",
+    color: "#61DAFB",
+    bg: "rgba(97,218,251,0.09)",
+    bd: "rgba(97,218,251,0.28)",
+    desc: "We craft high-performance web and mobile applications using React and React Native — delivering seamless cross-platform user experiences that delight.",
+    features: ["Single-Page Apps", "iOS & Android", "Component Libraries", "Performance Tuning", "State Management", "CI/CD Pipelines"],
+  },
+  {
+    IconComp: NodeIcon,
+    title: "Node.js Backend",
+    sub: "Scalable APIs & Services",
+    color: "#339933",
+    bg: "rgba(51,153,51,0.09)",
+    bd: "rgba(51,153,51,0.28)",
+    desc: "Build fast, scalable, and reliable server-side applications and REST/GraphQL APIs with Node.js — from microservices to real-time platforms.",
+    features: ["REST & GraphQL APIs", "Microservices", "WebSocket Systems", "Cloud Deployment", "Database Design", "Auth & Security"],
+  },
+  {
+    IconComp: CRMIcon,
+    title: "Custom CRM Software",
+    sub: "Business-First Solutions",
+    color: "#EC4899",
+    bg: "rgba(236,72,153,0.09)",
+    bd: "rgba(236,72,153,0.28)",
+    desc: "We design and develop tailor-made CRM systems built around your exact business workflows — giving you complete ownership, flexibility, and long-term value.",
+    features: ["Bespoke Architecture", "Pipeline Management", "Reporting & Analytics", "Workflow Automation", "Role-based Access", "Mobile-Ready"],
+  },
+];
+
+export const TEAM = [
+  { name: "Alex Morgan", role: "CEO & Founder", init: "AM", c: "#5B5FEF" },
+  { name: "Priya Sharma", role: "Chief Technology Officer", init: "PS", c: "#0078D4" },
+  { name: "Jordan Lee", role: "Head of D365 Practice", init: "JL", c: "#742774" },
+  { name: "Sara Chen", role: "Lead React Engineer", init: "SC", c: "#61DAFB" },
+  { name: "Marcus Webb", role: "Power Platform Architect", init: "MW", c: "#742774" },
+  { name: "Aisha Okonkwo", role: "Head of Delivery", init: "AO", c: "#FB923C" },
+  { name: "Ravi Patel", role: "Node.js Tech Lead", init: "RP", c: "#339933" },
+  { name: "Lucia Ferreira", role: "UX Design Lead", init: "LF", c: "#EC4899" },
+];
+
+export const JOBS = [
+  { title: "Senior D365 CRM Developer", type: "Full-time", loc: "Remote / Hybrid", dept: "Microsoft Practice" },
+  { title: "Power Platform Consultant", type: "Full-time", loc: "Remote", dept: "Microsoft Practice" },
+  { title: "Azure Cloud Architect", type: "Full-time", loc: "Remote", dept: "Cloud Practice" },
+  { title: "React Native Developer", type: "Full-time", loc: "Remote", dept: "Engineering" },
+  { title: "Node.js Backend Engineer", type: "Full-time", loc: "Remote / Hybrid", dept: "Engineering" },
+  { title: "Business Analyst – CRM", type: "Full-time", loc: "On-site", dept: "Consulting" },
+  { title: "Power BI Developer", type: "Full-time", loc: "Remote", dept: "Microsoft Practice" },
+  { title: "DevOps Engineer", type: "Full-time", loc: "Remote", dept: "Engineering" },
+];
